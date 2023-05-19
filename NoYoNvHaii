@@ -33,23 +33,18 @@ def banner_win():
     r = random.choice(colorArr)
     u = random.choice(colorArr)
     logo = f'''
-{a}	 █████╗   {r}  ██████╗  {u}   ██╗   ██╗
-{a}	██╔══██╗  {r}  ██╔══██╗ {u}   ██║   ██║
-{a}	███████║  {r}  ██████╔╝ {u}   ██║   ██║
-{a}	██╔══██║  {r}  ██╔══██╗ {u}   ██║   ██║
-{a}	██║  ██║  {r}  ██║  ██║ {u}   ╚██████╔╝
-{a}	╚═╝  ╚═╝  {r}  ╚═╝  ╚═╝ {u}    ╚═════╝ '''
-    textInfo = random.choice(colorArr)+'''
+{a}	 ██
+	
+textInfo = random.choice(colorArr)+'''
     	╔═══════════════════════════════╗
 	║	   CIRCLE TOOLS    	║
-	║	   AUTHOR : ARU     	║
+	║	   AUTHOR : NoYoNvHaii    	║
 	╚═══════════════════════════════╝'''
     print(logo)
     print(textInfo)
 option = '''
     [1] Number To ID or ID To Number
-    [2] Get API with OTP
-    [3] API to ID
+    [1] Number To ID or ID To Number    [3] API to ID
     [4] Following Check
     [5] Follower Check
     [6] Check Block List
